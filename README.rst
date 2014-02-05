@@ -11,13 +11,13 @@ Usage
 -----
 ::
 
-    $ ./ssh_sync.sh hosts|dns <remote_src_path> <local_dest_path>
+    $ ./lansync.sh hosts|dns <remote_src_path> <local_dest_path>
 
 Example
 -------
 ::
 
-    $ ./ssh_sync.sh dns /Users/john/homework /Users/john/backup
+    $ ./lansync.sh dns /Users/john/homework /Users/john/backup
 
 This syncs the directory /Users/john/homework into /Users/john/backup/homework.
 
@@ -25,7 +25,7 @@ Diagnostics
 -----------
 If "The host may be down or not accessible at this time." message appears and the remote machine is actually up. If you know the IP address of the remote machine on the LAN, try the following command::
 
-    $ ./ssh_sync.sh test <ip address>
+    $ ./lansync.sh test <ip address>
 
 or::
 

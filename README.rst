@@ -1,7 +1,7 @@
 lansync
 =======
 
-Sync and backup file from a host on the LAN over SSH.
+Sync and backup file between hosts on the LAN over SSH.
 
 Setup
 -----

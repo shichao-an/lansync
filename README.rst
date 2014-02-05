@@ -16,7 +16,7 @@ Set up DNS server (optional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 *named* and *rndc* utility are installed by default on OS X 10.8.
 
-1. Use rndc-confgen to generate configuration and secret key::
+1. Use ``rndc-confgen`` to generate configuration and secret key::
 
     $ sudo bash -c "rndc-confgen -b 256 > /etc/rndc.conf"
     $ sudo bash -c " head -n5 /etc/rndc.conf | tail -n4 > /etc/rndc.key"

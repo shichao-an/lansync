@@ -14,7 +14,7 @@ On Machine B, where ``lansync.sh`` resides, you want to routinely back up files 
 
 Set up DNS server (optional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-`named` and `rndc` utility are installed by default on OS X 10.8.
+*named* and *rndc* utility are installed by default on OS X 10.8.
 
 1. Use rndc-confgen to generate configuration and secret key::
 
@@ -23,7 +23,7 @@ Set up DNS server (optional)
 
 2. Edit /etc/named.conf and /etc/rndc.conf to ensure the port number are the same
 
-3. Start named server, run “rndc status” to check whether it is started::
+3. Start named server, run ``rndc status`` to check whether it is started::
 
     $ launchctl load -w /System/Library/LaunchDaemons/org.isc.named.plist
     $ launchctl start org.isc.named

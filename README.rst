@@ -10,7 +10,7 @@ On an OS X host, ``lansync.sh`` can be used to sync (using `rsync`) files from a
 
 Setup
 -----
-On Machine B, where ``lansync.sh`` resides, you want to routinely back up files from Machine A on the LAN with B, whose IP address may change.
+On Machine B, where ``lansync.sh`` resides, you want to routinely back up files from Machine A on the LAN with B, whose IP address may change. The OS X host where ``lansync.sh`` is invoked, can be configured to enable DNS server or not (simply use /etc/hosts).
 
 Set up DNS server (optional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
